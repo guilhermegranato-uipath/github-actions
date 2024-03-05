@@ -31,11 +31,6 @@ jobs:
           echo "GITHUB_WORKSPACE: ${GITHUB_WORKSPACE}"
           echo "GITHUB_SHA: ${GITHUB_SHA}"
           echo "GITHUB_REF: ${GITHUB_REF}"
-          echo "ORCH_REF: ${ORCH_URL}"
-          echo "ORCH_REF: ${ORCH_TENANT}"
-          echo "ORCH_REF: ${ORCH_CLIENT_ID}"
-          echo "ORCH_REF: ${ORCH_USER_KEY}"
-          echo "ORCH_REF: ${ORCH_ACC_NAME}"
   cleaner:
     runs-on: ubuntu-latest
     steps:
