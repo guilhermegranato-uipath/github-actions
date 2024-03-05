@@ -1,7 +1,7 @@
 {
   "name": "UiPath Github Action",
   "projectId": "5108d2d0-97c9-427a-ae6d-20e5a187b1c6",
-  "description": "Blank Process",
+  "description": "UiPath Github Action",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
