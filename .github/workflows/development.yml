@@ -10,11 +10,11 @@ env:
   # Replace with your Orchestrator Values 
   PROJECT_NAME: uipath.github.action                         
   PROJECT_FOLDER: ${{ github.action_path }}
-  ORCH_URL: https://cloud.uipath.com/RPABOTSWORLD/DEV
-  ORCH_TENANT: ${{ secrets.UIPATHTENANTNAME }}
-  ORCH_CLIENT_ID: ${{ secrets.UIPATHCLIENTID }}
-  ORCH_USER_KEY: ${{ secrets.UIPATHUSERKEY }}
-  ORCH_ACC_NAME: ${{ secrets.UIPATHACCOUNTNAME }}
+  ORCH_URL: https://staging.uipath.com
+  ORCH_TENANT: ${{ secrets.UIPATHTENANTNAMEDEV }}
+  ORCH_CLIENT_ID: ${{ secrets.UIPATHCLIENTIDDEV }}
+  ORCH_USER_KEY: ${{ secrets.UIPATHUSERKEYDEV }}
+  ORCH_ACC_NAME: ${{ secrets.UIPATHACCOUNTNAMEDEV }}
 
 jobs:
   print-details:
