@@ -10,7 +10,7 @@ env:
   # Replace with your Orchestrator Values 
   PROJECT_NAME: uipath.github.action                         
   PROJECT_FOLDER: ${{ github.action_path }}
-  ORCH_URL: https://staging.uipath.com/gg_staging/Tenant_Dev/orchestrator_
+  ORCH_URL: https://staging.uipath.com
   ORCH_TENANT: ${{ secrets.UIPATHTENANTNAMEDEV }}
   ORCH_CLIENT_ID: ${{ secrets.UIPATHCLIENTIDDEV }}
   ORCH_USER_KEY: ${{ secrets.UIPATHUSERKEYDEV }}
